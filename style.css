@@ -1,0 +1,133 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none; 
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+
+header {
+    position: fixed;
+    top: 0; left: 0; right:0;
+    background: #fff;
+    padding: 0.5rem 9%;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    box-shadow: 0.5rem 1rem rgba(0,0,0,.1);
+}
+header .navbar {
+    padding-left: 30%;
+}
+header .navbar a {
+    font-size: 1.5rem;
+    padding: 1.5rem;
+    color: #666;
+}
+header .navbar a:hover{
+    color: rgb(15, 135, 137);
+}
+
+h1{
+    color:  rgb(15, 135, 137);
+    text-align: center;
+}
+h3{
+    color: grey;
+    text-align: center;
+}
+.home {
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: rgb(128, 189, 148);
+/* background-image: url(light-green-background-design-olive-260nw-1072017758.webp); */
+min-height: 100vh;
+background-size: cover;
+background-position: center;
+}
+.home .content{
+    text-align: center;
+    
+}
+.home .content h2{
+    font-size: 35px;
+}
+.home .content p{
+    font-size: 22px;
+}
+.home .content a{
+    font-size: 1.4rem;
+    padding: 0.5rem;
+    color: #666;
+}
+.event .contents{
+    text-align: center;
+    
+}
+.event .contents h2{
+    font-size: 35px;
+}
+.event .contents h3{
+    font-size: 24px;
+}
+.event .contents p{
+    background-color: rgb(128, 189, 148);border-radius: 50%;
+    width: 500px;
+    height: 500px;
+    margin: 10% auto;
+    align-content: space-evenly;
+    background-size: cover;
+    font-size: 22px;
+    margin-top: auto;
+}
+
+.register .box {
+    padding:2rem 2.5rem;
+    box-shadow: 0 .5rem 2rem rgba(0,0,0,.1);
+    height: auto; 
+    width: 500px;
+    align-items: center; 
+    margin: auto;
+}
+.register .box form{
+    flex:1 1 40rem;
+    padding:2rem 2.5rem;
+    box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1);
+    border-radius: .5rem;
+
+}
+.register .box h1{
+    color:  rgb(15, 135, 137);
+}
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid rgb(76, 65, 65);
+  }
+  input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid rgb(76, 65, 65);
+  }
+.register .box p{
+    font-size: 20px;
+}
+.btn{
+    display: inline-block;
+    margin-top: 1rem;
+    border-radius: .5rem;
+    background: #333;
+    color: azure;
+    padding:.6rem 3rem;
+    cursor: pointer;
+    font-size: 1rem;
+}
+.btn:hover{
+    background-color: #211f1f;
+}
